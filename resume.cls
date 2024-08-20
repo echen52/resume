@@ -36,9 +36,9 @@
 \setmainfont{Raleway}
 
 % Define variables
-\def \@author{Jimbo Smith}
-\def \@phone{000-000-0000}
-\def \@email{abcdef@gmail.com}
+\def \@author{Emma Chen}
+\def \@phone{210-240-0965}
+\def \@email{echen52@illinois.edu}
 \def \@site{test.com}
 
 \newcommand{\setauthor}[1]{\def \@author{#1}}
@@ -56,7 +56,7 @@
         \href{mailto:\@email}{\@email}
     }
     \lhead{\@phone}
-    \rhead{\href{https://nwtnni.github.io}{\@site}}
+
     \renewcommand{\headrulewidth}{1pt}
     \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule width \headrulewidth\hfill}}
     \renewcommand{\footrulewidth}{0pt}
