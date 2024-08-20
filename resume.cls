@@ -33,13 +33,13 @@
 \pagenumbering{gobble}
 
 % Font loading
-\setmainfont{Raleway}
+%\setmainfont{Arev}
 
 % Define variables
 \def \@author{Emma Chen}
 \def \@phone{210-240-0965}
 \def \@email{echen52@illinois.edu}
-\def \@site{test.com}
+\def \@site{https://github.com/echen52}
 
 \newcommand{\setauthor}[1]{\def \@author{#1}}
 \newcommand{\setphone}[1]{\def \@phone{#1}}
@@ -55,7 +55,7 @@
         \end{spacing}
         \href{mailto:\@email}{\@email}
     }
-    \lhead{\@phone}
+   % \lhead{\@phone}
 
     \renewcommand{\headrulewidth}{1pt}
     \renewcommand{\headrule}{\hbox to\headwidth{\color{accent}\leaders\hrule width \headrulewidth\hfill}}
