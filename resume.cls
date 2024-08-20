@@ -37,7 +37,7 @@
 
 % Define variables
 \def \@author{Emma Chen}
-\def \@phone{210-240-0965}
+\def \@phone{000-000-0000}
 \def \@email{echen52@illinois.edu}
 \def \@site{https://github.com/echen52}
 
